@@ -37,7 +37,7 @@
 
 ### 3. 拓展应用码
 
-源码：[NotePad](https://github.com/LYoxo/NotePad_new-master/edit/master/README.md)
+源码：[NotePad](https://github.com/LYoxo/NotePad_new-master/tree/master)
 
 扩展后的目录结构：
 
@@ -452,8 +452,11 @@ SimpleCursorAdapter adapter = new SimpleCursorAdapter(
 ```
 8.批量删除的结果展示：
 
+选择：
+
 <img width="278" alt="4a89a3ae8b5a8b5c6969ac3f53493b3" src="https://github.com/user-attachments/assets/ca663c11-fc15-430f-a958-934341fb1111">
 
+删除后：
 
 <img width="273" alt="279127e0d9fc4ddc9488c9241ba52b8" src="https://github.com/user-attachments/assets/5d4ddf77-c822-4784-adb4-aae2e5e675b0">
 
@@ -788,6 +791,8 @@ PS:由于虚拟机中没有图片，所以这个功能具体能否实现有待�
 
 <img width="282" alt="f3efa62a63472d368ed1fb0e716cc0d" src="https://github.com/user-attachments/assets/b6ea76a4-31f5-43fc-8129-1f415f24ebf3">
 
+点击添加照片按钮：
+
 <img width="281" alt="d49211b4246ec24894bde51eccf4462" src="https://github.com/user-attachments/assets/0dda5cee-a27a-49b6-b49d-869540ba3358">
 
 
@@ -956,5 +961,7 @@ public class OutputText extends Activity {
 7.导出笔记的运行结果：
 
 <img width="260" alt="7e4b5c0a4d91fce06d7f75dd0badfc4" src="https://github.com/user-attachments/assets/d6f1f4c7-f22e-4ae1-8278-630b287914eb">
+
+系统文件夹中：
 
 <img width="223" alt="f5865aff8ca07b50821d820c68af85b" src="https://github.com/user-attachments/assets/eb3e9417-0221-4cb4-931b-4055ba2c202b">
