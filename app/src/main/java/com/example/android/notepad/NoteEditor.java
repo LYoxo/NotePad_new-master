@@ -493,6 +493,9 @@ public class NoteEditor extends Activity {
                 break;
             case R.id.menu_revert:
                 cancelNote();
+                break;//导出笔记选项
+            case R.id.menu_output:
+                outputNote();
                 break;
         }
         return super.onOptionsItemSelected(item);
@@ -746,6 +749,13 @@ public class NoteEditor extends Activity {
                 selectImage();
             }
         }
+    }
+
+    //跳转导出笔记的activity，将uri信息传到新的activity
+    private final void outputNote() {
+        Intent intent = new Intent(null,mUri);
+        intent.setClass(NoteEditor.this,OutputText.class);
+        NoteEditor.this.startActivity(intent);
     }
 
 }

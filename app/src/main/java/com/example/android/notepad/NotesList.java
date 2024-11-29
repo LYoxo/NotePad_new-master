@@ -526,8 +526,25 @@ public class NotesList extends ListActivity {
                     startActivity(favoritesIntent);
                 }
                 return true;
+            case R.id.menu_export:
+                // 处理导出笔记的逻辑
+                exportNotes();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void exportNotes() {
+        // 检查权限
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                    != PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(new String[]{
+                        Manifest.permission.WRITE_EXTERNAL_STORAGE
+                }, PERMISSION_REQUEST_CODE);
+                return;
+            }
         }
     }
 

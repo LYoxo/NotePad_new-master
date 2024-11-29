@@ -32,4 +32,9 @@
         android:icon="@android:drawable/btn_star"
         android:title="收藏夹"
         android:showAsAction="always" />
+    <item
+        android:id="@+id/menu_export"
+        android:title="导出笔记"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="never" />
 </menu>

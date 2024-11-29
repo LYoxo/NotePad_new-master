@@ -42,4 +42,7 @@
     <string name="nothing_to_save">There is nothing to save</string>
     <string name="menu_search" />
     <string name="menu_theme">主题</string>
+    <string name="output_ok" />
+    <string name="output_name" />
+    <string name="menu_output" />
 </resources>
